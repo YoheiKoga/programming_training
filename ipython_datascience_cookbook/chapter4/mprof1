@@ -1,0 +1,11 @@
+Filename: /Users/yk/programming/python/jupyternotebook/ipython_datascience_cookbook/chapter4/simulation.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+     6     61.1 MiB      0.0 MiB   def simulate(iterations, n=10000):
+     7    142.2 MiB     81.1 MiB       s = step(iterations, n)
+     8    142.2 MiB      0.0 MiB       x = np.cumsum(s, axis=0)
+     9    180.3 MiB     38.1 MiB       bins = np.cumsum(s, axis=0)
+    10    180.3 MiB      0.0 MiB       bins = np.arange(-30, 30, 1)
+    11    180.9 MiB      0.6 MiB       y = np.vstack([np.histogram(x[i,:], bins)[0] for i in range(iterations)])
+    12    180.9 MiB      0.0 MiB       return y
