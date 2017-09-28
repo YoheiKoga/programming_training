@@ -1,0 +1,2 @@
+- python3.6
+- not use Anaconda (but I think it is useful to use Anaconda)
