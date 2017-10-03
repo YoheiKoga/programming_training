@@ -18,3 +18,11 @@ Reshape your data either using array.reshape(-1, 1) if your data has a single fe
 array([1])
 ```
 
+<br>
+
+---
+### 8.5 SVM
+---
+
+- I found the simplest example(below link), it helps to understand SVM
+    - [Python Programming Tutorials](https://pythonprogramming.net/linear-svc-example-scikit-learn-svm-python/)
