@@ -1,5 +1,6 @@
-- python3.6
-- not use Anaconda (but I think it is useful to use Anaconda)
+- reference: [cookbook-code/notebooks at master · ipython-books/cookbook-code](https://github.com/ipython-books/cookbook-code/tree/master/notebooks)
+- I use python3.6
+- I don't use Anaconda (but I think it's better to use Anaconda)
 
 <br>
 
