@@ -1,3 +1,4 @@
+// this code is referenced [uCam Development | Mbed](https://os.mbed.com/users/ms523/notebook/ucam-development/)
 // #include <uCamII.h>
 #include <SoftwareSerial.h>
 
